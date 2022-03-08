@@ -245,5 +245,24 @@
         margin-left: 20px;
         width: 200px;
     }
+    
+}
 
+@media (max-width: 360px){
+    .navigation .navigation__icon
+    {
+        right: -10px;
+    }
+    .navigation .social-icon{
+        position: absolute;
+        top: 80vh;
+        right: 55vw;
+        transform: translateX(50%)
+    }
+    .container .passion{
+        margin-top: 30%;
+    }
+    .passion .passion-content .sub-title{
+        font-size: 1.8rem;
+    }
 }
